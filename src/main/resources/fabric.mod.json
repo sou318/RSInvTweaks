@@ -19,8 +19,7 @@
   },
 
   "mixins": [
-    "rsinvtweaks.mixins.json"
-    ,{
+    {
       "config": "rsinvtweaks.client.mixins.json",
       "environment": "client"
     }
