@@ -1,0 +1,25 @@
+{
+    "text.autoconfig.rsinvtweaks.title": "REJOIN THE WORLD FOR CHANGES APPLY",
+
+    "text.autoconfig.rsinvtweaks.category.default": "General",
+    "text.autoconfig.rsinvtweaks.option.enableMod": "Enable Mod",
+
+    "text.autoconfig.rsinvtweaks.category.wool": "Wools",
+    "text.autoconfig.rsinvtweaks.option.enableWool": "Enable Wools",
+    "text.autoconfig.rsinvtweaks.option.wool_white": "White",
+    "text.autoconfig.rsinvtweaks.option.wool_orange": "Orange",
+    "text.autoconfig.rsinvtweaks.option.wool_magenta": "Magenta",
+    "text.autoconfig.rsinvtweaks.option.wool_lightBlue": "Light blue",
+    "text.autoconfig.rsinvtweaks.option.wool_yellow": "Yellow",
+    "text.autoconfig.rsinvtweaks.option.wool_lime": "Lime",
+    "text.autoconfig.rsinvtweaks.option.wool_pink": "Pink",
+    "text.autoconfig.rsinvtweaks.option.wool_gray": "Gray",
+    "text.autoconfig.rsinvtweaks.option.wool_lightGray": "Light gray",
+    "text.autoconfig.rsinvtweaks.option.wool_cyan": "Cyan",
+    "text.autoconfig.rsinvtweaks.option.wool_purple": "Purple",
+    "text.autoconfig.rsinvtweaks.option.wool_blue": "Blue",
+    "text.autoconfig.rsinvtweaks.option.wool_brown": "Brown",
+    "text.autoconfig.rsinvtweaks.option.wool_green": "Green",
+    "text.autoconfig.rsinvtweaks.option.wool_red": "Red",
+    "text.autoconfig.rsinvtweaks.option.wool_black": "Black"
+}

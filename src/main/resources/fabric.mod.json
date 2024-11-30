@@ -5,16 +5,17 @@
 
   "name": "RSInvTweaks",
   "description": "",
-  "authors": [],
+  "authors": ["sou"],
   "contact": {},
 
   "license": "All-Rights-Reserved",
-  "icon": "assets/rsinvtweaks/icon.png",
+  "icon": "icon.png",
 
   "environment": "client",
   "entrypoints": {
     "client": ["sou.rsinvtweaks.client.RsinvtweaksClient"],
-    "main": ["sou.rsinvtweaks.Rsinvtweaks"]
+    "main": ["sou.rsinvtweaks.Rsinvtweaks"],
+    "modmenu": ["sou.rsinvtweaks.client.ModConfig"]
   },
 
   "mixins": [
