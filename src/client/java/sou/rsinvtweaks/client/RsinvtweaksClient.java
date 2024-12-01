@@ -185,15 +185,15 @@ public class RsinvtweaksClient implements ClientModInitializer
 
                 if (config.minecarts_enable)
                 {
+                    add(config.minecarts_rail, Items.RAIL);
+                    add(config.minecarts_powered_rail, Items.POWERED_RAIL);
+                    add(config.minecarts_detector_rail, Items.DETECTOR_RAIL);
+                    add(config.minecarts_activator_rail, Items.ACTIVATOR_RAIL);
                     add(config.minecarts_minecart, Items.MINECART);
                     add(config.minecarts_hopper_minecart, Items.HOPPER_MINECART);
                     add(config.minecarts_chest_minecart, Items.CHEST_MINECART);
                     add(config.minecarts_furnace_minecart, Items.FURNACE_MINECART);
                     add(config.minecarts_tnt_minecart, Items.TNT_MINECART);
-                    add(config.minecarts_rail, Items.RAIL);
-                    add(config.minecarts_powered_rail, Items.POWERED_RAIL);
-                    add(config.minecarts_detector_rail, Items.DETECTOR_RAIL);
-                    add(config.minecarts_activator_rail, Items.ACTIVATOR_RAIL);
                 }
 
                 add(config.others_item_frame, Items.ITEM_FRAME);
