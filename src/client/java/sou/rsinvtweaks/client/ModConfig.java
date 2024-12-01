@@ -5,7 +5,11 @@ import com.terraformersmc.modmenu.api.ModMenuApi;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.annotation.Config;
-import me.shedaniel.autoconfig.annotation.ConfigEntry;
+import me.shedaniel.autoconfig.annotation.ConfigEntry.Category;
+import me.shedaniel.autoconfig.annotation.ConfigEntry.Gui.CollapsibleObject;
+import sou.rsinvtweaks.client.config.CBlocks;
+import sou.rsinvtweaks.client.config.CGimmicks;
+import sou.rsinvtweaks.client.config.CShulkers;
 
 @Config(name="rsinvtweaks")
 public class ModConfig implements ConfigData, ModMenuApi
@@ -19,66 +23,103 @@ public class ModConfig implements ConfigData, ModMenuApi
 
     public boolean enableMod  = true;
 
-    @ConfigEntry.Category("wool") boolean wool_enable = true,
-    wool_white      = true,
-    wool_orange     = true,
-    wool_magenta    = true,
-    wool_lightBlue  = true,
-    wool_yellow     = true,
-    wool_lime       = true,
-    wool_pink       = true,
-    wool_gray       = true,
-    wool_lightGray  = true,
-    wool_cyan       = true,
-    wool_purple     = true,
-    wool_blue       = true,
-    wool_brown      = true,
-    wool_green      = true,
-    wool_red        = true,
-    wool_black      = true
+
+
+    @Category("blocks") @CollapsibleObject CBlocks.Wools blocks_wools = new CBlocks.Wools();
+    @Category("blocks") @CollapsibleObject CBlocks.Concretes blocks_concrete = new CBlocks.Concretes();
+    @Category("blocks") @CollapsibleObject CBlocks.Glasses blocks_glasses = new CBlocks.Glasses();
+    @Category("blocks")
+    public boolean
+    blocks_slime_block = true,
+    blocks_honey_block = true
         ;
+
+
+
+    @Category("gimmicks")
+    public boolean gimmicks_enable = true,
+    gimmicks_piston = true,
+    gimmicks_sticky_piston = true,
+    gimmicks_dropper = true,
+    gimmicks_dispenser = true,
+    gimmicks_observer = true,
+    gimmicks_note_block = true
+        ;
+    @Category("gimmicks") @CollapsibleObject CGimmicks.CopperBulbs gimmicks_copper_bulbs = new CGimmicks.CopperBulbs();
+    @Category("gimmicks") @CollapsibleObject CGimmicks.Doors gimmicks_doors = new CGimmicks.Doors();
+    @Category("gimmicks")
+    public boolean
+    gimmicks_crafter = true,
+    gimmicks_redstone_lamp = true,
+    gimmicks_tnt = true,
+    gimmicks_bell = true,
+    gimmicks_big_dripleaf = true
+        ;
+
+
 
     // 自ら信号を出す物のみ
-    @ConfigEntry.Category("input") boolean
-    input_target = true,
-    input_lever = true,
-    input_oak_button = true,
-    input_stone_button = true,
-    input_oak_pressure_plate = true,
-    input_stone_pressure_plate = true,
-    input_light_weighted_pressure_plate = true,
-    input_heavy_weighted_pressure_plate = true,
-    input_trapped_chest = true,
-    input_tripwire_hook = true,
-    input_daylight_detector = true,
-    input_sculk_sensor = true,
-    input_calibrated_suculk_sensor = true
+    @Category("inputs")
+    public boolean inputs_enable = true,
+    inputs_target = true,
+    inputs_lever = true,
+    inputs_oak_button = true,
+    inputs_stone_button = true,
+    inputs_oak_pressure_plate = true,
+    inputs_stone_pressure_plate = true,
+    inputs_light_weighted_pressure_plate = true,
+    inputs_heavy_weighted_pressure_plate = true,
+    inputs_trapped_chest = true,
+    inputs_tripwire_hook = true,
+    inputs_daylight_detector = true,
+    inputs_sculk_sensor = true,
+    inputs_calibrated_suculk_sensor = true
         ;
 
-    @ConfigEntry.Category("minecart") boolean minecart_enable = true,
-    minecart_minecart = true,
-    minecart_hopper_minecart = true,
-    minecart_chest_minecart = true,
-    minecart_furnace_minecart = true,
-    minecart_tnt_minecart = true,
-    minecart_rail = true,
-    minecart_powered_rail = true,
-    minecart_detector_rail = true,
-    minecart_activator_rail = true
+
+    @Category("inventories")
+    public boolean inventories_enable = true,
+    inventories_chest = true,
+    inventories_barrel = true,
+    inventories_hopper = true,
+    inventories_composter = true,
+    inventories_cauldron = true,
+    inventories_brewing_stand = true,
+    inventories_furnace = true,
+    inventories_blast_furnace = true,
+    inventories_smoker = true,
+    inventories_chiseled_bookshelf = true,
+    inventories_lectern = true,
+    inventories_bee_nest = true,
+    inventories_beehive = true,
+    inventories_decorated_pot = true,
+    inventories_jukebox = true,
+    inventories_respawn_anchor = true,
+    inventories_end_portal_frame = true
+        ;
+    @Category("inventories") @CollapsibleObject CShulkers shulkers = new CShulkers();
+
+
+    @Category("minecarts")
+    public boolean minecarts_enable = true,
+    minecarts_rail = true,
+    minecarts_powered_rail = true,
+    minecarts_detector_rail = true,
+    minecarts_activator_rail = true,
+    minecarts_minecart = true,
+    minecarts_hopper_minecart = true,
+    minecarts_chest_minecart = true,
+    minecarts_furnace_minecart = true,
+    minecarts_tnt_minecart = true
         ;
 
-    @ConfigEntry.Category("inventory") boolean inventory_enable = true,
-    inventory_chest = true,
-    inventory_barrel = true,
-    inventory_hopper = true,
-    inventory_dropper = true,
-    inventory_dispenser = true,
-    inventory_crafter = true,
-    inventory_composter = true,
-    inventory_cauldron = true,
-    inventory_furnace = true,
-    inventory_chiseled_bookshelf = true,
-    inventory_decorated_pot = true,
-    inventory_jukebox = true
+
+    @Category("others")
+    public boolean
+    others_item_frame = true,
+    others_armor_stand = true,
+    others_lightning_rod = true,
+    others_obsidian = true,
+    others_bedrock = true
         ;
 }
