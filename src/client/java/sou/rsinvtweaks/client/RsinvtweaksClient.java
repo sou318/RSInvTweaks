@@ -52,24 +52,24 @@ public class RsinvtweaksClient implements ClientModInitializer
                     add(config.blocks_wools.black, Items.BLACK_WOOL);
                 }
 
-                if (config.blocks_concrete.enable)
+                if (config.blocks_concretes.enable)
                 {
-                    add(config.blocks_concrete.white, Items.WHITE_CONCRETE);
-                    add(config.blocks_concrete.orange, Items.ORANGE_CONCRETE);
-                    add(config.blocks_concrete.magenta, Items.MAGENTA_CONCRETE);
-                    add(config.blocks_concrete.lightBlue, Items.LIGHT_BLUE_CONCRETE);
-                    add(config.blocks_concrete.yellow, Items.YELLOW_CONCRETE);
-                    add(config.blocks_concrete.lime, Items.LIME_CONCRETE);
-                    add(config.blocks_concrete.pink, Items.PINK_CONCRETE);
-                    add(config.blocks_concrete.gray, Items.GRAY_CONCRETE);
-                    add(config.blocks_concrete.lightGray, Items.LIGHT_GRAY_CONCRETE);
-                    add(config.blocks_concrete.cyan, Items.CYAN_CONCRETE);
-                    add(config.blocks_concrete.purple, Items.PURPLE_CONCRETE);
-                    add(config.blocks_concrete.blue, Items.BLUE_CONCRETE);
-                    add(config.blocks_concrete.brown, Items.BROWN_CONCRETE);
-                    add(config.blocks_concrete.green, Items.GREEN_CONCRETE);
-                    add(config.blocks_concrete.red, Items.RED_CONCRETE);
-                    add(config.blocks_concrete.black, Items.BLACK_CONCRETE);
+                    add(config.blocks_concretes.white, Items.WHITE_CONCRETE);
+                    add(config.blocks_concretes.orange, Items.ORANGE_CONCRETE);
+                    add(config.blocks_concretes.magenta, Items.MAGENTA_CONCRETE);
+                    add(config.blocks_concretes.lightBlue, Items.LIGHT_BLUE_CONCRETE);
+                    add(config.blocks_concretes.yellow, Items.YELLOW_CONCRETE);
+                    add(config.blocks_concretes.lime, Items.LIME_CONCRETE);
+                    add(config.blocks_concretes.pink, Items.PINK_CONCRETE);
+                    add(config.blocks_concretes.gray, Items.GRAY_CONCRETE);
+                    add(config.blocks_concretes.lightGray, Items.LIGHT_GRAY_CONCRETE);
+                    add(config.blocks_concretes.cyan, Items.CYAN_CONCRETE);
+                    add(config.blocks_concretes.purple, Items.PURPLE_CONCRETE);
+                    add(config.blocks_concretes.blue, Items.BLUE_CONCRETE);
+                    add(config.blocks_concretes.brown, Items.BROWN_CONCRETE);
+                    add(config.blocks_concretes.green, Items.GREEN_CONCRETE);
+                    add(config.blocks_concretes.red, Items.RED_CONCRETE);
+                    add(config.blocks_concretes.black, Items.BLACK_CONCRETE);
                 }
 
                 if (config.blocks_glasses.enable)
@@ -161,25 +161,25 @@ public class RsinvtweaksClient implements ClientModInitializer
                     add(config.inventories_respawn_anchor, Items.RESPAWN_ANCHOR);
                     add(config.inventories_end_portal_frame, Items.END_PORTAL_FRAME);
 
-                    if (config.shulkers.enable)
+                    if (config.inventories_shulkers.enable)
                     {
-                        add(config.shulkers.none, Items.SHULKER_BOX);
-                        add(config.shulkers.white, Items.WHITE_SHULKER_BOX);
-                        add(config.shulkers.orange, Items.ORANGE_SHULKER_BOX);
-                        add(config.shulkers.magenta, Items.MAGENTA_SHULKER_BOX);
-                        add(config.shulkers.lightBlue, Items.LIGHT_BLUE_SHULKER_BOX);
-                        add(config.shulkers.yellow, Items.YELLOW_SHULKER_BOX);
-                        add(config.shulkers.lime, Items.LIME_SHULKER_BOX);
-                        add(config.shulkers.pink, Items.PINK_SHULKER_BOX);
-                        add(config.shulkers.gray, Items.GRAY_SHULKER_BOX);
-                        add(config.shulkers.lightGray, Items.LIGHT_GRAY_SHULKER_BOX);
-                        add(config.shulkers.cyan, Items.CYAN_SHULKER_BOX);
-                        add(config.shulkers.purple, Items.PURPLE_SHULKER_BOX);
-                        add(config.shulkers.blue, Items.BLUE_SHULKER_BOX);
-                        add(config.shulkers.brown, Items.BROWN_SHULKER_BOX);
-                        add(config.shulkers.green, Items.GREEN_SHULKER_BOX);
-                        add(config.shulkers.red, Items.RED_SHULKER_BOX);
-                        add(config.shulkers.black, Items.BLACK_SHULKER_BOX);
+                        add(config.inventories_shulkers.none, Items.SHULKER_BOX);
+                        add(config.inventories_shulkers.white, Items.WHITE_SHULKER_BOX);
+                        add(config.inventories_shulkers.orange, Items.ORANGE_SHULKER_BOX);
+                        add(config.inventories_shulkers.magenta, Items.MAGENTA_SHULKER_BOX);
+                        add(config.inventories_shulkers.lightBlue, Items.LIGHT_BLUE_SHULKER_BOX);
+                        add(config.inventories_shulkers.yellow, Items.YELLOW_SHULKER_BOX);
+                        add(config.inventories_shulkers.lime, Items.LIME_SHULKER_BOX);
+                        add(config.inventories_shulkers.pink, Items.PINK_SHULKER_BOX);
+                        add(config.inventories_shulkers.gray, Items.GRAY_SHULKER_BOX);
+                        add(config.inventories_shulkers.lightGray, Items.LIGHT_GRAY_SHULKER_BOX);
+                        add(config.inventories_shulkers.cyan, Items.CYAN_SHULKER_BOX);
+                        add(config.inventories_shulkers.purple, Items.PURPLE_SHULKER_BOX);
+                        add(config.inventories_shulkers.blue, Items.BLUE_SHULKER_BOX);
+                        add(config.inventories_shulkers.brown, Items.BROWN_SHULKER_BOX);
+                        add(config.inventories_shulkers.green, Items.GREEN_SHULKER_BOX);
+                        add(config.inventories_shulkers.red, Items.RED_SHULKER_BOX);
+                        add(config.inventories_shulkers.black, Items.BLACK_SHULKER_BOX);
                     }
                 }
 

@@ -26,7 +26,7 @@ public class ModConfig implements ConfigData, ModMenuApi
 
 
     @Category("blocks") @CollapsibleObject CBlocks.Wools blocks_wools = new CBlocks.Wools();
-    @Category("blocks") @CollapsibleObject CBlocks.Concretes blocks_concrete = new CBlocks.Concretes();
+    @Category("blocks") @CollapsibleObject CBlocks.Concretes blocks_concretes = new CBlocks.Concretes();
     @Category("blocks") @CollapsibleObject CBlocks.Glasses blocks_glasses = new CBlocks.Glasses();
     @Category("blocks")
     public boolean
@@ -97,7 +97,7 @@ public class ModConfig implements ConfigData, ModMenuApi
     inventories_respawn_anchor = true,
     inventories_end_portal_frame = true
         ;
-    @Category("inventories") @CollapsibleObject CShulkers shulkers = new CShulkers();
+    @Category("inventories") @CollapsibleObject CShulkers inventories_shulkers = new CShulkers();
 
 
     @Category("minecarts")
