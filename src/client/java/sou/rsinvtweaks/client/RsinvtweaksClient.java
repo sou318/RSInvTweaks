@@ -154,11 +154,12 @@ public class RsinvtweaksClient implements ClientModInitializer
                     add(config.inventories_smoker, Items.SMOKER);
                     add(config.inventories_chiseled_bookshelf, Items.FURNACE);
                     add(config.inventories_lectern, Items.LECTERN);
-                    add(config.inventories_bee_nest, Items.BEE_NEST);
                     add(config.inventories_beehive, Items.BEEHIVE);
+                    add(config.inventories_bee_nest, Items.BEE_NEST);
                     add(config.inventories_decorated_pot, Items.DECORATED_POT);
                     add(config.inventories_jukebox, Items.JUKEBOX);
                     add(config.inventories_respawn_anchor, Items.RESPAWN_ANCHOR);
+                    add(config.inventories_cake, Items.CAKE);
                     add(config.inventories_end_portal_frame, Items.END_PORTAL_FRAME);
 
                     if (config.inventories_shulkers.enable)

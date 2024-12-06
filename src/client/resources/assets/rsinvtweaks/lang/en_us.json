@@ -132,11 +132,12 @@
     "text.autoconfig.rsinvtweaks.option.inventories_smoker": "Smoker",
     "text.autoconfig.rsinvtweaks.option.inventories_chiseled_bookshelf": "Chiseled bookshelf",
     "text.autoconfig.rsinvtweaks.option.inventories_lectern": "Lectern",
-    "text.autoconfig.rsinvtweaks.option.inventories_bee_nest": "Bee nest",
     "text.autoconfig.rsinvtweaks.option.inventories_beehive": "Beehive",
+    "text.autoconfig.rsinvtweaks.option.inventories_bee_nest": "Bee nest",
     "text.autoconfig.rsinvtweaks.option.inventories_decorated_pot": "Decorated pot",
     "text.autoconfig.rsinvtweaks.option.inventories_jukebox": "Jukebox",
     "text.autoconfig.rsinvtweaks.option.inventories_respawn_anchor": "Respawn anchor",
+    "text.autoconfig.rsinvtweaks.option.inventories_cake": "Cake",
     "text.autoconfig.rsinvtweaks.option.inventories_end_portal_frame": "End portal frame",
 
     "text.autoconfig.rsinvtweaks.option.inventories_shulkers": "Shulkers",

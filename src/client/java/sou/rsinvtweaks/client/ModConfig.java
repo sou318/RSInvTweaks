@@ -53,7 +53,7 @@ public class ModConfig implements ConfigData, ModMenuApi
     gimmicks_redstone_lamp = true,
     gimmicks_tnt = true,
     gimmicks_bell = true,
-    gimmicks_big_dripleaf = true
+    gimmicks_big_dripleaf = false
         ;
 
 
@@ -67,8 +67,8 @@ public class ModConfig implements ConfigData, ModMenuApi
     inputs_stone_button = true,
     inputs_oak_pressure_plate = true,
     inputs_stone_pressure_plate = true,
-    inputs_light_weighted_pressure_plate = true,
-    inputs_heavy_weighted_pressure_plate = true,
+    inputs_light_weighted_pressure_plate = false,
+    inputs_heavy_weighted_pressure_plate = false,
     inputs_trapped_chest = true,
     inputs_tripwire_hook = true,
     inputs_daylight_detector = true,
@@ -90,12 +90,13 @@ public class ModConfig implements ConfigData, ModMenuApi
     inventories_smoker = true,
     inventories_chiseled_bookshelf = true,
     inventories_lectern = true,
-    inventories_bee_nest = true,
     inventories_beehive = true,
-    inventories_decorated_pot = true,
-    inventories_jukebox = true,
-    inventories_respawn_anchor = true,
-    inventories_end_portal_frame = true
+    inventories_bee_nest = false,
+    inventories_decorated_pot = false,
+    inventories_jukebox = false,
+    inventories_respawn_anchor = false,
+    inventories_cake = false,
+    inventories_end_portal_frame = false
         ;
     @Category("inventories") @CollapsibleObject CShulkers inventories_shulkers = new CShulkers();
 
