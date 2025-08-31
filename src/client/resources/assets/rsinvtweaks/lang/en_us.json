@@ -178,6 +178,8 @@
     "text.autoconfig.rsinvtweaks.option.others_lightning_rod": "Lightning rod",
     "text.autoconfig.rsinvtweaks.option.others_obsidian": "Obsidian",
     "text.autoconfig.rsinvtweaks.option.others_bedrock": "Bedrock",
+    "text.autoconfig.rsinvtweaks.option.others_water_bucket": "Water bucket",
+    "text.autoconfig.rsinvtweaks.option.others_lava_bucket": "Lava bucket",
     "text.autoconfig.rsinvtweaks.option.others_birch_sign": "Birch sign",
     "text.autoconfig.rsinvtweaks.option.others_command_block": "Command block",
     "text.autoconfig.rsinvtweaks.option.others_debug_stick": "Debug stick"
