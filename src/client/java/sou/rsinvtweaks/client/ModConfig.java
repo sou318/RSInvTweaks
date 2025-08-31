@@ -52,7 +52,7 @@ public class ModConfig implements ConfigData, ModMenuApi
     gimmicks_crafter = true,
     gimmicks_redstone_lamp = true,
     gimmicks_tnt = true,
-    gimmicks_bell = true,
+    gimmicks_bell = false,
     gimmicks_big_dripleaf = false
         ;
 
@@ -86,8 +86,8 @@ public class ModConfig implements ConfigData, ModMenuApi
     inventories_cauldron = true,
     inventories_brewing_stand = true,
     inventories_furnace = true,
-    inventories_blast_furnace = true,
-    inventories_smoker = true,
+    inventories_blast_furnace = false,
+    inventories_smoker = false,
     inventories_chiseled_bookshelf = true,
     inventories_lectern = true,
     inventories_beehive = true,
@@ -121,6 +121,11 @@ public class ModConfig implements ConfigData, ModMenuApi
     others_armor_stand = true,
     others_lightning_rod = true,
     others_obsidian = true,
-    others_bedrock = true
+    others_bedrock = true,
+    others_water_bucket = true,
+    others_lava_bucket = false,
+    others_birch_sign = false,
+    others_command_block = false,
+    others_debug_stick = true
         ;
 }

@@ -124,7 +124,7 @@
     "text.autoconfig.rsinvtweaks.option.inventories_chest": "Chest",
     "text.autoconfig.rsinvtweaks.option.inventories_barrel": "Barrel",
     "text.autoconfig.rsinvtweaks.option.inventories_hopper": "Hopper",
-    "text.autoconfig.rsinvtweaks.option.inventories_composter": "composter",
+    "text.autoconfig.rsinvtweaks.option.inventories_composter": "Composter",
     "text.autoconfig.rsinvtweaks.option.inventories_cauldron": "Cauldron",
     "text.autoconfig.rsinvtweaks.option.inventories_brewing_stand": "Brewing stand",
     "text.autoconfig.rsinvtweaks.option.inventories_furnace": "Furnace",
@@ -177,5 +177,8 @@
     "text.autoconfig.rsinvtweaks.option.others_armor_stand": "Armor stand",
     "text.autoconfig.rsinvtweaks.option.others_lightning_rod": "Lightning rod",
     "text.autoconfig.rsinvtweaks.option.others_obsidian": "Obsidian",
-    "text.autoconfig.rsinvtweaks.option.others_bedrock": "Bedrock"
+    "text.autoconfig.rsinvtweaks.option.others_bedrock": "Bedrock",
+    "text.autoconfig.rsinvtweaks.option.others_birch_sign": "Birch sign",
+    "text.autoconfig.rsinvtweaks.option.others_command_block": "Command block",
+    "text.autoconfig.rsinvtweaks.option.others_debug_stick": "Debug stick"
 }
