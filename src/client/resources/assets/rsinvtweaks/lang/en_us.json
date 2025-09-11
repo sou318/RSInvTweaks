@@ -52,6 +52,8 @@
     "text.autoconfig.rsinvtweaks.option.blocks_concretes.red": "Red",
     "text.autoconfig.rsinvtweaks.option.blocks_concretes.black": "Black",
 
+    "text.autoconfig.rsinvtweaks.option.blocks_smooth_stone_slab": "Smooth stone slab",
+
     "text.autoconfig.rsinvtweaks.option.blocks_glasses": "Glasses",
     "text.autoconfig.rsinvtweaks.option.blocks_glasses.enable": "Enable",
     "text.autoconfig.rsinvtweaks.option.blocks_glasses.transparent": "Transparent",
@@ -74,6 +76,7 @@
 
     "text.autoconfig.rsinvtweaks.option.blocks_slime_block": "Slime block",
     "text.autoconfig.rsinvtweaks.option.blocks_honey_block": "Honey block",
+    "text.autoconfig.rsinvtweaks.option.blocks_mud": "Mud",
 
 
     "text.autoconfig.rsinvtweaks.option.gimmicks_enable": "Enable",

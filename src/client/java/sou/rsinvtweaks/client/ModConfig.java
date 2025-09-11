@@ -27,11 +27,13 @@ public class ModConfig implements ConfigData, ModMenuApi
 
     @Category("blocks") @CollapsibleObject CBlocks.Wools blocks_wools = new CBlocks.Wools();
     @Category("blocks") @CollapsibleObject CBlocks.Concretes blocks_concretes = new CBlocks.Concretes();
+    @Category("blocks") public boolean blocks_smooth_stone_slab = true;
     @Category("blocks") @CollapsibleObject CBlocks.Glasses blocks_glasses = new CBlocks.Glasses();
     @Category("blocks")
     public boolean
     blocks_slime_block = true,
-    blocks_honey_block = true
+    blocks_honey_block = true,
+    blocks_mud = false
         ;
 
 

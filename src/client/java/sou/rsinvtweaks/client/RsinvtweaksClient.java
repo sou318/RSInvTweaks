@@ -72,6 +72,8 @@ public class RsinvtweaksClient implements ClientModInitializer
                     add(config.blocks_concretes.black, Items.BLACK_CONCRETE);
                 }
 
+                add(config.blocks_smooth_stone_slab, Items.SMOOTH_STONE_SLAB);
+
                 if (config.blocks_glasses.enable)
                 {
                     add(config.blocks_glasses.transparent, Items.GLASS);
@@ -95,6 +97,7 @@ public class RsinvtweaksClient implements ClientModInitializer
 
                 add(config.blocks_slime_block, Items.SLIME_BLOCK);
                 add(config.blocks_honey_block, Items.HONEY_BLOCK);
+                add(config.blocks_mud, Items.MUD);
 
                 if (config.gimmicks_enable)
                 {
