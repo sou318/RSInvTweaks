@@ -17,6 +17,7 @@ public class ModConfig implements ConfigData, ModMenuApi
     @Override
     public ConfigScreenFactory<?> getModConfigScreenFactory()
     {
+        //noinspection removal - TODO: いつか直す
         return parent -> AutoConfig.getConfigScreen(ModConfig.class, parent).get();
     }
 
@@ -82,10 +83,12 @@ public class ModConfig implements ConfigData, ModMenuApi
     @Category("inventories")
     public boolean inventories_enable = true,
     inventories_chest = true,
+    inventories_copper_chest = false,
     inventories_barrel = true,
     inventories_hopper = true,
     inventories_composter = true,
     inventories_cauldron = true,
+    inventories_oak_shelf = false,
     inventories_brewing_stand = true,
     inventories_furnace = true,
     inventories_blast_furnace = false,
@@ -122,6 +125,7 @@ public class ModConfig implements ConfigData, ModMenuApi
     others_item_frame = true,
     others_armor_stand = true,
     others_lightning_rod = true,
+    others_copper_golem = false,
     others_obsidian = true,
     others_bedrock = true,
     others_water_bucket = true,

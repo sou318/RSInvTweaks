@@ -147,12 +147,14 @@ public class RsinvtweaksClient implements ClientModInitializer
                 if (config.inventories_enable)
                 {
                     add(config.inventories_chest, Items.CHEST);
+                    add(config.inventories_copper_chest, Items.COPPER_CHEST);
                     add(config.inventories_barrel, Items.BARREL);
                     add(config.inventories_hopper, Items.HOPPER);
                     add(config.inventories_composter, Items.COMPOSTER);
                     add(config.inventories_cauldron, Items.CAULDRON);
                     add(config.others_water_bucket, Items.WATER_BUCKET);
                     add(config.others_lava_bucket, Items.LAVA_BUCKET);
+                    add(config.inventories_oak_shelf, Items.OAK_SHELF);
                     add(config.inventories_brewing_stand, Items.BREWING_STAND);
                     add(config.inventories_furnace, Items.FURNACE);
                     add(config.inventories_blast_furnace, Items.BLAST_FURNACE);
@@ -205,6 +207,7 @@ public class RsinvtweaksClient implements ClientModInitializer
                 add(config.others_item_frame, Items.ITEM_FRAME);
                 add(config.others_armor_stand, Items.ARMOR_STAND);
                 add(config.others_lightning_rod, Items.LIGHTNING_ROD);
+                add(config.others_copper_golem, Items.COPPER_GOLEM_SPAWN_EGG);
                 add(config.others_obsidian, Items.OBSIDIAN);
                 add(config.others_bedrock, Items.BEDROCK);
                 add(config.others_birch_sign, Items.BIRCH_SIGN);
